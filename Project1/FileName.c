@@ -2,14 +2,17 @@
 
 int main()
 {
-	int j, i, t;
-	for (i = 0; i < 7; i++)
+	int j, i, y, t;
+	y = 0;
+	printf("ÁÙÀÔ·Â");
+	scanf("%d", &t);
+	for (i = 0; i < 9; i++)
 	{
-		for (j = 1; j < 7 - i; j++)
+		for (j = 0; j < 9 - i; j++)
 		{
 			printf(" ");
 		}
-		for (t = 1;  t <(t*2+1); t++);
+		for (y = 0;  i > (y*2+1); y++)
 		{
 			printf("*");
 		}
