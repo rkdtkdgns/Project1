@@ -4,15 +4,17 @@ int main()
 {
 	int j, i, y, t;
 	y = 0;
-	printf("줄입력");
+	j = 0;
+	i = 0;
+	printf("줄입력"); 
 	scanf("%d", &t);
-	for (i = 0; i < t; i++)
+	for (i = 0; i <= t; i++)
 	{
-		for (j = 0; j < 7 - i; j++)
+		for (j = i; j <= t +1  ; j++)
 		{
 			printf(" ");
 		}
-		for (y = 0;  i > (y*1-1); y++)
+ 		for (y = 0;  y <= (i*2); y++)
 		{
 			printf("*");
 		}
