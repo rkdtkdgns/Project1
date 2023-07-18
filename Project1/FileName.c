@@ -8,9 +8,9 @@ int main()
 	i = 0;
 	printf("มูภิทย"); 
 	scanf("%d", &t);
-	for (i = 0; i <= t; i++)
+	for (i = 0; i < t; i++)
 	{
-		for (j = i; j <= t +1  ; j++)
+		for (j = i; j <t +1  ; j++)
 		{
 			printf(" ");
 		}
